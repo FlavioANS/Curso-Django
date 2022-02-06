@@ -1,4 +1,4 @@
-# Curso-Django
+# Curso-DjangoPro
 
 Código desenvolvido no módulo Curso-Django  www.python.pro.br
 
