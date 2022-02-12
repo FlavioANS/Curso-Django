@@ -130,3 +130,7 @@ dmypy.json
 
 # intellij configs
 .idea/*
+
+# Media & static files
+staticfiles/
+mediafiles/
