@@ -146,7 +146,7 @@ if CLOUDINARY_ACCESS_KEY_ID:
     STATICFILES_STORAGE = 'cloudinary_storage.storage.StaticHashedCloudinaryStorage'  # pragma: no cover
     ADMIN_MEDIA_PREFIX = STATIC_URL + 'admin/'  # pragma: no cover
 
-# Media assets
+    # Media assets
     DEFAULT_FILE_STORAGE = 'cloudinary_storage.storage.MediaCloudinaryStorage'  # pragma: no cover
 # COLLECTFAST_ENABLED = True
 # Default primary key field type
