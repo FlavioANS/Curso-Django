@@ -128,7 +128,7 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'mediafiles')
 
 CLOUDINARY_ACCESS_KEY_ID = config('API_KEY')
 
-COLLECTFAST_ENABLED = False
+# COLLECTFAST_ENABLED = False
 
 # Storage configuration in
 # cloudinary.config(
