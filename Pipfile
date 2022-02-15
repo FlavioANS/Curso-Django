@@ -11,6 +11,7 @@ dj-database-url = "*"
 psycopg2-binary = "*"
 cloudinary = "*"
 django-cloudinary-storage = "*"
+collectfast = "*"
 
 [dev-packages]
 flake8 = "*"
