@@ -14,6 +14,7 @@ from functools import partial
 from pathlib import Path
 
 # import cloudinary.api  # cloudinary
+import cloudinary as cloudinary
 import dj_database_url
 from decouple import config, Csv
 
