@@ -14,6 +14,7 @@ from functools import partial
 from pathlib import Path
 
 # import cloudinary.api  # cloudinary
+import cloudinary as cloudinary
 import dj_database_url
 from decouple import config, Csv
 
@@ -127,10 +128,10 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'mediafiles')
 
-# Extra places for collectstatic to find static files.
-STATICFILES_DIRS = (
-    os.path.join(BASE_DIR, 'static'),
-)
+# # Extra places for collectstatic to find static files.
+# STATICFILES_DIRS = (
+#     os.path.join(BASE_DIR, 'staticfiles'),
+# )
 COLLECTFAST_ENABLED = False
 
 CLOUDINARY_ACCESS_KEY_ID = config('API_KEY')
