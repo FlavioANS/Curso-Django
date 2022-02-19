@@ -134,7 +134,6 @@ ADMIN_MEDIA_PREFIX = STATIC_URL + 'admin/'  # pragma: no cover
 
 # Media assets
 COLLECTFAST_ENABLED = True
-COLLECTFAST_STRATEGY = "collectfast.strategies.boto3.Boto3Strategy"
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.0/ref/settings/#default-auto-field
