@@ -12,6 +12,7 @@ psycopg2-binary = "*"
 django-cloudinary-storage = "*"
 collectfast = "*"
 whitenoise = "*"
+django-debug-toolbar = "*"
 
 [dev-packages]
 flake8 = "*"
