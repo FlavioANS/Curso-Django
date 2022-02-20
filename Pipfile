@@ -13,6 +13,7 @@ django-cloudinary-storage = "*"
 collectfast = "*"
 whitenoise = "*"
 django-debug-toolbar = "*"
+sentry-sdk = "*"
 
 [dev-packages]
 flake8 = "*"
