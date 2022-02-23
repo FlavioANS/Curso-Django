@@ -145,7 +145,7 @@ COLLECTFAST_ENABLED = False
 ADMIN_MEDIA_PREFIX = STATIC_URL + 'admin/'  # pragma: no cover
 
 # Media assets
-STATICFILES_STORAGE = "whitenoise.storage.CompressedManifestStaticFilesStorage"
+# STATICFILES_STORAGE = "whitenoise.storage.CompressedManifestStaticFilesStorage"
 # COLLECTFAST_STRATEGY = "collectfast.strategies.boto3.Boto3Strategy"
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.0/ref/settings/#default-auto-field
