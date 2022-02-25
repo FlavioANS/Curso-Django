@@ -47,6 +47,7 @@ INSTALLED_APPS = [
     'whitenoise.runserver_nostatic',
     'django.contrib.staticfiles',
     'pypro.base',
+    'pypro.aperitivos',
 ]
 
 MIDDLEWARE = [
