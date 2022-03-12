@@ -47,6 +47,7 @@ INSTALLED_APPS = [
     'whitenoise.runserver_nostatic',
     'django.contrib.staticfiles',
     'pypro.base',
+    'pypro.turmas',
     'pypro.aperitivos',
     'pypro.modulos',
     'ordered_model',
