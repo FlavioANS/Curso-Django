@@ -7,13 +7,16 @@ Aplicação disponivel no site https://pythondjangoflavio.herokuapp.com/
 [![CursodjangoCI](https://github.com/FlavioANS/Curso-Django/actions/workflows/CursoDjandoCI.yml/badge.svg)](https://github.com/FlavioANS/Curso-Django/actions/workflows/CursoDjandoCI.yml)
 
 Instruções para instalação:
+
 Criar e ativar ambiente virtual Python (venv):
 python -m venv .venv
 
 source .venv/bin/activate
 
 Instalar dependências:
+
 pip install requirements.txt
 
 Instalar dependências, inclusive de desenvolvimento:
+
 pip install requirements-dev.txt
