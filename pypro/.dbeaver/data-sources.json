@@ -1,0 +1,30 @@
+{
+	"folders": {},
+	"connections": {
+		"sqlite_jdbc-17fccd8d5fd-7d0a245ebe899cac": {
+			"provider": "sqlite",
+			"driver": "sqlite_jdbc",
+			"name": "0001_initial.py",
+			"save-password": true,
+			"read-only": false,
+			"configuration": {
+				"database": "C:\\Users\\flavi\\PycharmProjects\\Projeto-Agenda\\contatos\\migrations\\0001_initial.py",
+				"url": "jdbc:sqlite:C:\\Users\\flavi\\PycharmProjects\\Projeto-Agenda\\contatos\\migrations\\0001_initial.py",
+				"type": "dev",
+				"auth-model": "native",
+				"handlers": {}
+			}
+		}
+	},
+	"connection-types": {
+		"dev": {
+			"name": "Development",
+			"color": "255,255,255",
+			"description": "Regular development database",
+			"auto-commit": true,
+			"confirm-execute": false,
+			"confirm-data-change": false,
+			"auto-close-transactions": false
+		}
+	}
+}
